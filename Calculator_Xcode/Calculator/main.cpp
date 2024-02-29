@@ -1,20 +1,53 @@
 #include <iostream>
 
+enum States { ADD, SUBTRACT, MULTIPLY, DIVIDE };
+
 int main()
 {
-    //------- variables --------
-    int x = 0;
-    int y = 0;
-    int runCalculator = 1;
+	//------- variables --------
+	int x = 0;
+	int y = 0;
+	int operation = 3;//could be 0, 1, 2, 3
 
-    //while loop
-    //get input and do addition
-    while(runCalculator) {
+	//get input
+	std::cin >> x >> y;
 
-        std::cin >> x >> y;
-        std::cout << x + y << "\n";
+	switch (operation)
+	{
+	case ADD:
+		std::cout << x + y;
+		break;
 
-    }
-    
+	case SUBTRACT:
+		std::cout << x - y;
+		break;
 
+	case MULTIPLY:
+		std::cout << x * y;
+		break;
+
+	case DIVIDE:
+		if (y == 0)
+		{
+
+		}
+		else
+		{
+			std::cout << x / y;
+
+		}
+		break;
+	}
+		
+
+
+
+
+
+
+
+
+	//calculate
+	
 }
+
