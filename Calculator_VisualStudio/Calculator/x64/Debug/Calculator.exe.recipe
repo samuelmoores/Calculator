@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\VisualStudioProject\Calculator\x64\Debug\Calculator.exe</FullPath>
+      <FullPath>C:\VisualStudioProject\Calculator\Calculator_VisualStudio\x64\Debug\Calculator.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
